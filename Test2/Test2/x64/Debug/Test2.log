@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(20,16): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(20,16): warning C4244:         with
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(20,16): warning C4244:         [
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(20,16): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(20,16): warning C4244:         ]
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(27,57): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(27,57): warning C4267:         with
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(27,57): warning C4267:         [
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(27,57): warning C4267:             _Ty=int
+C:\Users\jding\source\repos\Test2\Test2\main.cpp(27,57): warning C4267:         ]
+  Test2.vcxproj -> C:\Users\jding\source\repos\Test2\x64\Debug\Test2.exe
