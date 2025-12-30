@@ -14,12 +14,15 @@ vector<string> PlayersCondition = {
 	"B"
 };
 
+unsigned Seed = std::chrono::system_clock::now().time_since_epoch().count();
+
+std::mt19937 engine(Seed);
 
 bool CheckWinCondition(vector<string>* Players, string CheckPlayer)
 {
-	unsigned Seed = std::chrono::system_clock::now().time_since_epoch().count();
+	
 
-	std::mt19937 engine(Seed);
+	
 
 	size_t PlayersSize = Players->size();
 
